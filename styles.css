@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background: #fff;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-buttons a {
+    margin-left: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.header-buttons .login {
+    background: none;
+    color: #FF685B;
+    font-weight: 700;
+}
+
+.header-buttons .join-us {
+    background: #FF685B;
+    color: #fff;
+    font-weight: 700;
+}
+
+.hero-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+    display: flex;
+    align-items: center;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-buttons .btn {
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.hero-buttons .btn-primary {
+    background: #FF685B;
+    color: #fff;
+}
+
+.hero-buttons .btn-secondary {
+    background: none;
+    color: #FF685B;
+    border: 1px solid #FF685B;
+}
+
+.hero-images {
+    position: relative;
+    width: 50%;
+    height: 500px;
+}
+
+.hero-images img {
+    position: absolute;
+}
+
+.doctor {
+    top: 20%;
+    left: 20%;
+    width: 70%;
+    z-index: 1;
+}
+
+.blob {
+    top: 50%;
+    left: 16%;
+    width: 75%;
+    z-index: 0;
+}
+
+.vector-big {
+    top: 40%;
+    left: 20%;
+    width: 85%;
+    z-index: 0;
+}
+
+.vector-small {
+    top: 40%;
+    left: 20%;
+    width: 7%;
+    z-index: 0;
+}
+
+.services-section {
+    padding: 50px 0;
+    text-align: left;
+    position: relative;
+    z-index: 2;
+}
+
+.service-card {
+    display: inline-block;
+    width: 30%;
+    margin: 2%;
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #FF685B;
+    margin: 20px 20px 0 20px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin: 20px 20px 0 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+.service-line {
+    width: 50px;
+    height: 3px;
+    background-color: #FF685B;
+    margin: 20px 20px 0 20px;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #666;
+    margin: 20px 20px 0 20px;
+}
