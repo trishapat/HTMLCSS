@@ -125,8 +125,8 @@ nav ul li a {
     font-size: 58px;
     line-height: 80px;
     letter-spacing: 0.2px;
-    margin-bottom: 35px;
     color: #252B42;
+    margin-bottom: 35px;
 }
 
 .sub-headline {
@@ -232,8 +232,8 @@ nav ul li a {
 .service-card p {
     font-size: 14px;
     font-weight:400;
+    letter-spacing: 0.2px;
     color: #737373;
     margin: 20px 20px 0 20px;
     box-sizing: border-box;
-    letter-spacing: 0.2px
 }
