@@ -19,7 +19,7 @@ body {
 
 header {
     background: #fff;
-    padding: 1rem 0;
+    padding: 20px 0;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -43,7 +43,7 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #737373;
-    font-size: 1rem;
+    font-size: 14px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.2px;
@@ -59,7 +59,7 @@ nav ul li a {
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 .header-buttons .login {
@@ -96,7 +96,7 @@ nav ul li a {
     background-color: #f9f9f9;
     display: flex;
     align-items: center;
-    margin: -50px 0 0 0;
+    margin: -50px 0 0;
 }
 
 .hero-container {
@@ -148,27 +148,22 @@ nav ul li a {
     padding: 15px 40px;
     text-decoration: none;
     border-radius: 5px;
-}
-
-.hero-buttons .btn-primary {
-    background: #FF685B;
-    color: #fff;
     font-weight: 700;
     font-size: 14px;
     line-height: 22px;
     letter-spacing: 0.2px;
     text-align: center;
+}
+
+.hero-buttons .btn-primary {
+    background: #FF685B;
+    color: #fff;
 }
 
 .hero-buttons .btn-secondary {
     background: none;
     color: #FF685B;
     border: 1px solid #FF685B;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 0.2px;
-    text-align: center;
 }
 
 .hero-image {
@@ -209,7 +204,7 @@ nav ul li a {
 .service-icon {
     width: 72px;
     height: 72px;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0;
     box-sizing: border-box;
 }
 
@@ -217,7 +212,7 @@ nav ul li a {
     font-size: 16px;
     color: #252B42;
     font-weight: 700;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0;
     box-sizing: border-box;
 }
 
@@ -225,15 +220,15 @@ nav ul li a {
     width: 50px;
     height: 2px;
     background-color: #E74040;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0;
     box-sizing: border-box;
 }
 
 .service-card p {
     font-size: 14px;
-    font-weight:400;
+    font-weight: 400;
     letter-spacing: 0.2px;
     color: #737373;
-    margin: 20px 20px 0 20px;
+    margin: 20px 20px 0;
     box-sizing: border-box;
 }
